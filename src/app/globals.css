@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Micro+5&family=Tiny5&display=swap");
+* {
+    font-family: "Micro 5", sans-serif;
+}
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+    background-color: #def6ff;
+
+    width: 100vw;
+    height: 100vh;
+
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 6rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 0;
+}
