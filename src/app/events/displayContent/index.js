@@ -32,7 +32,7 @@ export const resolveContent = () => {
   try {
     res = eval(displayContent); //EXECUTA UMA STRING DE CÓDIGO
     clearDisplay(false);
-    displayContent += res.toString();
+    displayContent = res.toString();
   } catch {
     displayContent = "ERROR. DO C/CE";
   }

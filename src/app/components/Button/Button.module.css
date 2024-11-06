@@ -18,11 +18,28 @@
 
 .button:hover {
     cursor: pointer;
-    background-color: #ffa200;
+    background-color: #fec943;
 }
 
 .button:active {
     background-color: #eaeaea;
     box-shadow: 0 4px #606060;
     transform: translateY(2px);
+}
+
+.button:nth-child(20) {
+    grid-row: span 2;
+}
+.button:nth-child(21) {
+    grid-column: span 2;
+}
+
+@media (max-width: 600px) {
+    .button {
+        width: 13vw;
+        height: 12.5vw;
+        font-size: 9.3vw;
+        padding-right: 1vw;
+        border-radius: 1.68vw;
+    }
 }
